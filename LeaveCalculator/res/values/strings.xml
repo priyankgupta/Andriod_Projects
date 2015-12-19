@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LeaveCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Click on Calculate to know how many Days/Classes can be bunked</string>
+    <string name="txtFirstNumber">Enter compulsory attendance in %</string>
+    <string name="welcome">Welcome to BUNK SMARTLY</string>
+    <string name="txtSecondNumber">Enter number of days/classes to be conducted</string>
+    <string name="txtSpace"></string>
+    <string name="txtFirstNum">Enter the number of days you need to bunk</string>
+    <string name="txtSecondNum">Enter number of days can be bunked</string>
+    
+
+</resources>

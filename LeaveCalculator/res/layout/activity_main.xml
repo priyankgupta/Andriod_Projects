@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ >
+<TextView
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="@string/hello"
+ android:fadingEdge="horizontal"
+ android:textStyle="italic"
+ />
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSpace"
+/>
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtFirstNumber"
+ android:textSize="17dp"
+/>
+<EditText
+android:inputType="numberDecimal"
+android:id="@+id/EditText01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textSize="17dp">
+</EditText>
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSpace"
+/>
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSecondNumber"
+/>
+<EditText
+android:inputType="numberDecimal"
+android:id="@+id/EditText02"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+</EditText>
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSpace"
+/>
+
+<TextView
+android:id="@+id/TextView01"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="@color/darkblue"
+ android:textSize="19dp"
+ 
+/>
+
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSpace"
+ android:id="@+id/txtSpace01"
+ android:textColor="@color/darkred"
+ android:textSize="18dp"
+/>
+
+<Button
+    android:id="@+id/Button01"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Calculate"
+    android:layout_gravity="center" >
+
+</Button>
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSpace"
+/>
+
+<ImageView
+      android:layout_width="450dp"
+      android:layout_height="350dp"
+      android:id="@+id/imageView"
+      android:src="@drawable/bunk"
+      android:layout_gravity="center" />
+<TextView
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="@string/txtSpace"
+/>
+
+<Button
+    android:layout_width="450dp"
+    android:layout_height="wrap_content"
+    android:text="Help me to Bunk!!!"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/Button02"
+     >  
+</Button>
+    
+</LinearLayout>
